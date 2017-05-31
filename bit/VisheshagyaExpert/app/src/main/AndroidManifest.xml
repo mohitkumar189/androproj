@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mohitattri.visheshagyaexpert">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.SplashActivity"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.UserLoginActivity"
+            android:noHistory="true"/>
+        <activity android:name=".activities.UserSignupActivity" />
+        <activity android:name=".activities.UserForgotPasswordActivity" />
+        <activity android:name=".activities.AppAccessActivity" />
+        <activity android:name=".activities.MyProfileActivity" />
+        <activity android:name=".activities.MyAppointmentsActivity" />
+        <activity android:name=".activities.ELockerActivity" />
+        <activity android:name=".activities.MyOfficeActivity" />
+        <activity android:name=".activities.MyPracticeActivity"></activity>
+    </application>
+
+</manifest>

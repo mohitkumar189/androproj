@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <vc908.stickerfactory.ui.view.KeyboardHandleRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                               android:id="@+id/sizeNotifierLayout"
+                                                               android:layout_width="match_parent"
+                                                               android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <vc908.stickerfactory.ui.view.BadgedStickersButton
+                android:id="@+id/stickers_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/ic_action_keyboard"
+                android:visibility="gone"/>
+
+
+            <LinearLayout
+                android:id="@+id/containerEdit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colr_bg_chat_editor"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/messageEdit"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toLeftOf="@+id/chatSendButton"
+                    android:layout_toRightOf="@id/stickers_button"
+                    android:layout_weight="1"
+                    android:autoText="true"
+                    android:background="@null"
+                    android:hint="Type Message"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"/>
+
+
+                <ImageView
+                    android:id="@+id/attachButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:clickable="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/attchment"/>
+
+                <Button
+                    android:id="@+id/chatSendButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/ic_image_send_button"/>
+
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerMessages"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/containerEdit"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentTop="false"
+                android:layout_below="@+id/meLabel"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:divider="@null"
+                android:listSelector="@android:color/transparent"
+                android:padding="10dp"
+                android:transcriptMode="alwaysScroll"/>
+
+            <TextView
+                android:id="@+id/meLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:singleLine="false"
+                android:text="Me"
+                android:textSize="20dp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/companionLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Friend"
+                android:textSize="20dp"
+                android:visibility="gone"/>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_alignParentBottom="true"/>
+    </vc908.stickerfactory.ui.view.KeyboardHandleRelativeLayout>
+</LinearLayout>

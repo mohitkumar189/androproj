@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="50dp">
+
+        <!--       Signup form layout              -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+            <!--       Email Label             -->
+            <android.support.design.widget.TextInputLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#696969"
+                android:gravity="bottom">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/sName"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:focusableInTouchMode="true"
+                    android:hint="Full Name"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/White" />
+            </android.support.design.widget.TextInputLayout>
+
+            <!--       Password Label             -->
+            <android.support.design.widget.TextInputLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="#696969"
+                android:gravity="bottom">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/sEmailId"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:focusableInTouchMode="true"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/White" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="bottom"
+                    android:background="#696969"
+                    android:gravity="bottom"
+                    android:text="+91"
+                    android:textColor="@color/White" />
+                <!--       Mobile Number Label             -->
+                <android.support.design.widget.TextInputLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#696969"
+                    android:gravity="bottom">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/sMobileNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="@dimen/component_margin"
+                        android:layout_marginTop="@dimen/component_margin"
+                        android:layout_weight="1.8"
+                        android:focusableInTouchMode="true"
+                        android:hint="Mobile Number"
+                        android:inputType="phone"
+                        android:textColor="@color/White" />
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <!--       Sign up Button             -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/termsAcceptCheck"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:text="I agree with the"
+                    android:textColor="@color/White"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/termsAndCondTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:text=" terms and conditions "
+                    android:textColor="#6666B2"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="for Registration."
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/signupButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#da231d"
+                android:gravity="center"
+                android:text="@string/signup"
+                android:textColor="@color/White" />
+
+            <TextView
+                android:id="@+id/loginLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/component_margin"
+                android:gravity="center"
+                android:text="@string/already_account"
+                android:textColor="@color/White" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

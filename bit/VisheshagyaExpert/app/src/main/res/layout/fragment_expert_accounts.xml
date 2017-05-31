@@ -1,0 +1,181 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Account Details"
+            android:gravity="center_horizontal"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:orientation="horizontal"
+            android:paddingRight="16dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Account Number"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_weight="1"/>
+       <EditText
+           android:id="@+id/edUserAccountNumber"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:hint="Account Number"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:orientation="horizontal"
+            android:paddingRight="16dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Account Holder Name"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/edUserAccountHolderName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Account Name"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:orientation="horizontal"
+            android:paddingRight="16dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IFSC Code"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/edUserIFSCCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                android:hint="Ifsc code"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:orientation="horizontal"
+            android:paddingRight="16dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bank Name"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/edUserBankName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                android:hint="Bank Name"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:orientation="horizontal"
+            android:paddingRight="16dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bank Address"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/edUserBankAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                android:hint="Bank Address"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:orientation="horizontal"
+            android:paddingRight="16dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MICR Code"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/edUserAccountMicrNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                android:hint="MICR No"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Account Type"
+                android:layout_weight="1"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:checkedButton="@+id/radioSavingType">
+                <RadioButton
+                    android:id="@+id/radioSavingType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Saving"/>
+                <RadioButton
+                    android:id="@+id/radioCurrentType"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Current"/>
+            </RadioGroup>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnAddAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add"/>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyBaseProject</string>
+    <string name="error_empty_email_id" />
+    <string name="error_invalid_email_id" />
+    <string name="error_phone_no_invalid" />
+    <string name="error_additional_zero" />
+</resources>

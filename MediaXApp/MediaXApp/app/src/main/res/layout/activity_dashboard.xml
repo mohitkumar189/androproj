@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:fitsSystemWindows="true"
+             tools:context=".activity.Dashboard">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <!-- The main content view -->
+
+        <LinearLayout
+            android:id="@+id/fragmentContainerWithToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="4dp"
+                            android:background="@drawable/shadow_drawable" />-->
+
+
+            <FrameLayout
+                android:id="@+id/fragmentContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"></FrameLayout>
+
+        </LinearLayout>
+
+        <!-- The navigation drawer -->
+
+        <LinearLayout
+            android:id="@+id/containerView"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:background="@color/background_nav_header"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/margin_large">
+
+
+                <FrameLayout
+                    android:layout_width="120dp"
+                    android:layout_height="120dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/image_circular"
+                        ></View>
+
+                    <com.mediax.mediaxapp.widgets.CircularImageView
+                        android:id="@+id/circleImageDrawerProfile"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/bg_white_circular_img"
+                        android:padding="4dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/icon_user"></com.mediax.mediaxapp.widgets.CircularImageView>
+                </FrameLayout>
+
+
+                <TextView
+                    android:id="@+id/textUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/label_text_user_name"
+                    android:textColor="@color/text_nav_menu_items"
+                    android:textSize="@dimen/font_large"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/margin_large"
+                android:layout_marginRight="@dimen/margin_large"
+                android:background="@color/white"></View>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerNavigationDrawer"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/background_nav_header"
+                android:choiceMode="singleChoice"
+                android:divider="@color/black"
+                android:dividerHeight="1px"
+                android:paddingTop="@dimen/margin_medium"
+                android:scrollbars="none"/>
+
+
+        </LinearLayout>
+    </android.support.v4.widget.DrawerLayout>
+
+</FrameLayout>

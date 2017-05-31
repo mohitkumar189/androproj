@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4F9CDF</color>
+    <color name="colorPrimaryDark">#0d70b3</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="primaryColor">#0d70b3</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+
+    <!--splash activity-->
+    <color name="splash_background">#ff0d8cd1</color>
+
+
+    <!--app_access activity-->
+    <color name="app_access_background">#4F9CDF</color>
+    <color name="sign_up_button_background">#6AA3D8</color>
+
+    <!--sign_up activity-->
+    <color name="edittext_sign_up_text_color">#000000</color>
+    <color name="signup_button_backgound">#0d70b3</color>
+
+    <!--sign_in activity-->
+    <color name="signin_button_backgound">#00bf28</color>
+    <color name="text_forgot_password_color">#999999</color>
+
+    <!--dashboard_activity-->
+    <color name="background_nav_header">#F2F2F2</color>
+
+    <!--nav_drawer-->
+    <color name="text_nav_menu_items">#000000</color>
+
+    <!--review-->
+    <color name="review_divider">#999999</color>
+
+    <!--database-->
+    <color name="text_name">#ff0d8cd1</color>
+    <color name="text_company">#ff0d8cd1</color>
+    <color name="divider_database">#ff0d8cd1</color>
+    <color name="bg_search_bar">#E9EAE1</color>
+    <color name="bg_radio_container">#0677F7</color>
+
+    <!--add news-->
+    <color name="bg_take_pic">#80000000</color>
+
+    <!--ADD_ENTRY-->
+    <color name="text_labels">#4F9CDF</color>
+
+
+    <color name="color_outer_circle_pic">#DFDFDF</color>
+
+
+</resources>

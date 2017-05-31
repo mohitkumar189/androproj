@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editPassDigitOne"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_shape"
+            android:gravity="center"
+            android:hint="*"
+            android:inputType="numberPassword"
+            android:textColorHint="@color/colorWhite" />
+
+        <EditText
+            android:id="@+id/editPassDigitTwo"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_shape"
+            android:gravity="center"
+            android:hint="*"
+            android:inputType="numberPassword"
+            android:textColorHint="@color/colorWhite" />
+
+        <EditText
+            android:id="@+id/editPassDigitThree"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_shape"
+            android:gravity="center"
+            android:hint="*"
+            android:inputType="numberPassword"
+            android:textColorHint="@color/colorWhite" />
+
+        <EditText
+            android:id="@+id/editPassDigitFour"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_shape"
+            android:gravity="center"
+            android:hint="*"
+            android:inputType="numberPassword"
+            android:textColorHint="@color/colorWhite" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

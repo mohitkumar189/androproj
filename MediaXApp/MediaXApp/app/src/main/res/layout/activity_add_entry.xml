@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:orientation="vertical"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            tools:context="com.mediax.mediaxapp.activity.SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.mediax.mediaxapp.activity.AddEntryActivity">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:gravity="center"
+            android:text="@string/label_text_add_instructions"
+            android:textSize="@dimen/font_large"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/margin_medium">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_medium"
+                android:layout_weight="0.5"
+                android:gravity="bottom"
+                android:text="@string/label_text_name_user"
+                android:textColor="@color/text_labels"
+                android:textSize="@dimen/font_large"/>
+
+            <EditText
+                android:id="@+id/editName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_medium"
+                android:layout_weight="1"
+                android:hint="@string/hint_text_name"
+                android:textSize="@dimen/font_large"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/margin_medium">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_medium"
+                android:gravity="bottom"
+                android:text="@string/label_text_companyname_user"
+                android:textColor="@color/text_labels"
+                android:textSize="@dimen/font_large"/>
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteCompany"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_medium"
+                android:layout_weight="1"
+                android:hint="@string/hint_text_company"
+                android:textSize="@dimen/font_large"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/margin_medium">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_medium"
+                android:layout_weight="0.5"
+                android:gravity="bottom"
+                android:text="@string/label_text_designation"
+                android:textColor="@color/text_labels"
+                android:textSize="@dimen/font_large"/>
+
+            <EditText
+                android:id="@+id/editDesignation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_medium"
+                android:layout_weight="1"
+                android:hint="@string/hint_text_designation"
+                android:textSize="@dimen/font_large"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/margin_medium">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_medium"
+                android:layout_weight="0.5"
+                android:gravity="bottom"
+                android:text="@string/label_text_contact"
+                android:textColor="@color/text_labels"
+                android:textSize="@dimen/font_large"/>
+
+            <EditText
+                android:id="@+id/editContact"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_medium"
+                android:layout_weight="1"
+                android:hint="@string/hint_text_contact"
+                android:textSize="@dimen/font_large"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/margin_medium">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_medium"
+                android:layout_weight="0.5"
+                android:gravity="bottom"
+                android:text="@string/label_text_email_id"
+                android:textColor="@color/text_labels"
+                android:textSize="@dimen/font_large"/>
+
+            <EditText
+                android:id="@+id/editEmailId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_medium"
+                android:layout_weight="1"
+                android:hint="@string/hint_text_emailid"
+                android:textSize="@dimen/font_large"/>
+
+
+        </LinearLayout>
+
+        <!--     <Button
+                 android:id="@+id/buttonAddEntry"
+                 android:layout_width="match_parent"
+                 android:layout_height="50dp"
+                 android:layout_marginLeft="@dimen/margin_medium"
+                 android:layout_marginRight="@dimen/margin_medium"
+                 android:layout_marginTop="@dimen/margin_medium"
+                 android:background="@color/signup_button_backgound"
+                 android:text="@string/label_button_add_entry"
+                 android:textAllCaps="false"
+                 android:textColor="@color/white"
+                 android:textSize="@dimen/font_large"/>-->
+
+
+    </LinearLayout>
+</ScrollView>

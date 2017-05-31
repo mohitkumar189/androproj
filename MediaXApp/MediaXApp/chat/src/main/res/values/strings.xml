@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SampleQuickbloxChat</string>
+
+    <string name="gcm_defaultSenderId">514182181338</string>
+
+
+    <string name="labelAddContact">Add Contact</string>
+
+    <string name="messgaeAddContact">Are you sure you want to add this contact</string>
+
+    <string name="ok">ok</string>
+    <string name="cancel">cancel</string>
+</resources>

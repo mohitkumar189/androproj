@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Visheshagya</string>
+
+    <!-- Text for Dialog in splash screen -->
+    <string name="no_connection_title">No Internet Connection</string>
+    <string name="no_connection">Connect to INTERNET</string>cancel_button_text
+    <string name="settings_button_text">YES</string>
+    <string name="cancel_button_text">NO</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="consult_imm_text">CONSULT IMMEDIATELY</string>
+    <string name="expert_panel_text">OUR PANEL OF EXPERTS</string>
+    <string name="query_to_expert">Write something for expert...</string>
+
+    <!-- Text for Dialog in Booking screen -->
+
+    <string name="no_login_title">Not Logged in</string>
+    <string name="no_login">Please Login</string>
+    <string name="positive_btn_text">LOGIN</string>
+    <string name="negative_btn_text">SIGNUP</string>
+
+    <!-- Text for login signup package -->
+
+    <string name="forgot_password">FORGOT PASSWORD</string>
+    <string name="reset_password">RESET PASSWORD</string>
+    <string name="login">LOGIN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="no_account">RESET PASSWORD</string>
+    <string name="already_account">Already a member? Login</string>
+
+    <!-- Facebook Id-->
+    <string name="facebook_app_id">218851075178135</string>
+</resources>

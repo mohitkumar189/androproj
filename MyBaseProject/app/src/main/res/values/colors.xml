@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="sign_up_button_background">#fff</color>
+    <color name="white">#fff</color>
+    <color name="bg_radio_container">#fff</color>
+    <color name="color_outer_circle_pic">#fff</color>
+    <color name="bg_search_bar">#fff</color>
+    <color name="gray">#fff</color>
+</resources>

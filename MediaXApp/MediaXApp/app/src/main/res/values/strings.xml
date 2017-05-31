@@ -1,0 +1,336 @@
+<resources>
+
+    <!--app utils-->
+    <string name="label_select">Select</string>
+
+    <string name="label_Mediax">MEDIAX</string>
+    <string name="label_MediaxTagline">CONNECT,SHARE,COLLABORATE &amp; GROW</string>
+
+    <!--app titles-->
+    <string name="title_chat_fragment">Chat</string>
+    <string name="title_database_fragment">Database</string>
+    <string name="title_news_fragment">News</string>
+    <string name="title_review_fragment">Feedback</string>
+    <string name="title_contact_us_fragment">Contact Us</string>
+    <string name="title_settings_fragment">Settings</string>
+    <string name="title_jobs_fragment">Jobs</string>
+    <string name="title_main_board">Home</string>
+
+    <!--app_resources-->
+    <string name="app_name">MediaX App</string>
+    <string name="pdialog_message_loading">Loading please wait..</string>
+    <string name="alert_message_no_network">Network not available please try again </string>
+    <string name="alert_ok_button_text_no_network">ok</string>
+    <string name="alert_cancel_button_text_no_network">cancel</string>
+
+
+    <!--validator-->
+    <string name="error_phone_no_invalid">Please provide 10 digit mobile number</string>
+    <string name="error_additional_zero">Please provide number without zero</string>
+
+    <string name="error_invalid_email_id">Please provide valid email id</string>
+    <string name="error_empty_email_id">Please provide  email id</string>
+
+    <string name="label_ok_button">ok</string>
+    <string name="label_cancel_button">cancel</string>
+
+
+    <!--app_access-->
+    <string name="label_button_sign_up">CREATE AN ACCOUNT</string>
+    <string name="label_text_sign_in">LOGIN</string>
+    <string name="label_Or">Or</string>
+
+
+    <!--sign_up-->
+    <string name="hint_editText_full_name">Full name</string>
+    <string name="hint_editText_Official_mail_id">Official email id</string>
+    <string name="hint_editText_password">Password</string>
+    <string name="hint_editText_company_name">Company name</string>
+    <string name="hint_editText_brand_name">Brand name</string>
+    <string name="hint_editText_designation_name">Designation name</string>
+    <string name="hint_editText_linkedin_profile_link">Linkedin profile link</string>
+    <string name="hint_editText_mobile_number">Mobile</string>
+    <string name="hint_status_message">Status Message</string>
+
+    <string name="label_button_signup">Sign up</string>
+    <string name="label_button_update">Update</string>
+
+    <string name="error_fullname_empty">Please enter full name</string>
+    <string name="error_official_emailid_empty">Please enter official email id</string>
+    <string name="error_password_empty">Please enter password</string>
+    <string name="error_designation_empty">Please enter designation</string>
+    <string name="error_mobile_no_empty">Please enter 10 digits mobile number</string>
+    <string name="error_industry_type_empty">Please select industry type</string>
+    <string name="error_Zone_empty">Please select zone</string>
+    <string name="error_status_message">Please enter status message</string>
+
+    <string name="nwk_error_sign_up">Sign up error</string>
+    <string name="nwk_error_sign_in">Sign in error</string>
+    <string name="nwk_error_forgot_password">Forgot Password error</string>
+    <string name="error_add_job">Internal server error in adding Job Please try again</string>
+
+
+    <string name="nwk_response_sign_up">Sign up response</string>
+    <string name="nwk_response_sign_in">Sign in response</string>
+    <string name="nwk_response_forgot_password">Forgot Password response</string>
+
+    <string name="nwk_response_categories">Categories response</string>
+    <string name="nwk_error_categories">Fetching Categories error</string>
+
+    <string name="nwk_response_get_news">Get news response</string>
+    <string name="nwk_response_add_person">Add person response</string>
+
+    <string name="nwk_error_add_person">Error occured during adding person</string>
+
+    <string name="nwk_error_delete_person">Error occured during deleting person</string>
+
+    <string name="nwk_response_delete_person">Delete person response</string>
+
+    <string name="nwk_response_edit_person">Edit person response</string>
+    <string name="nwk_response_is_user_verified">Team is in process of verifying your details, chat feature will be active soon.</string>
+
+
+    <string name="nwk_error_edit_person">Error occured during edit person</string>
+
+    <string name="nwk_response_contact_us">Contact us response</string>
+    <string name="nwk_error_contact_us">Error occured during contacting</string>
+
+
+    <string name="nwk_error_fetching_news">News error</string>
+
+    <string-array name="arrayIndustryType">
+        <item>Print</item>
+        <item>Tv</item>
+        <item>Magazines</item>
+        <item>Digital</item>
+        <item>Outdoor</item>
+        <item>Events</item>
+        <item>Consultants</item>
+        <item>others</item>
+    </string-array>
+
+    <string-array name="arrayZone">
+        <item>Select Zone</item>
+        <item>North</item>
+        <item>West</item>
+        <item>South</item>
+        <item>East</item>
+    </string-array>
+
+    <string name="label_select_industry_type">Select Industry Type</string>
+    <string name="label_select_zone">Select Zone</string>
+
+
+    <!--sign_in-->
+    <string name="hint_editText_user_name">Email</string>
+    <string name="hint_editText_login_password">Password</string>
+
+
+    <string name="label_button_signin">Log in</string>
+    <string name="label_forgot_password">Forgot password?</string>
+
+    <string name="error_empty_username">Please enter username</string>
+    <string name="error_empty_password">Please enter password</string>
+
+
+    <!--forgot_password-->
+    <string name="hint_edittext_recovery_email">Email</string>
+    <string name="label_button_reset_password">Reset Password</string>
+
+    <!--dashboard-->
+    <string name="label_text_user_name">Username</string>
+
+    <string name="message_app_exit">Press again to exit</string>
+
+
+    <string name="alert_message_logout">Are you sure you want to logout? </string>
+    <string name="label_text_news">News</string>
+
+    <string name="label_text_jobs">Jobs</string>
+
+    <string name="label_text_chat">Chat</string>
+
+    <string name="label_text_database">Database</string>
+    <string name="label_text_feedback">Feedback</string>
+
+
+    <string name="label_text_contact_us">Contat Us</string>
+    <string name="label_text_settings">Settings </string>
+
+
+    <!--nav_drawer-->
+    <string-array name="sideBarItems">
+        <item>Home</item>
+        <item>Chats</item>
+        <item>Database</item>
+        <item>News</item>
+        <item>Jobs</item>
+        <item>Feedback</item>
+        <item>Contact Us</item>
+        <item>Settings</item>
+
+        <item>Logout</item>
+    </string-array>
+
+    <!--contact_us-->
+
+    <string name="hint_user_name">Username</string>
+    <string name="hint_message">Leave your suggestion here...</string>
+    <string name="label_button_send">Send</string>
+
+    <!--review-->
+    <string name="label_text_bug">Bug</string>
+    <string name="label_text_improvement">Improvement</string>
+    <string name="label_text_suggestion">Suggestion</string>
+    <string name="label_feedback">
+In your email please provide the steps of bug/error reproduction. Let us know how often it occurs and if it gives any error code. This information will help us to find the source of the issue. Kindly give us as many details as possible. Thank you.
+</string>
+
+
+    <!--review-->
+    <string name="label_text_profile">Profile</string>
+    <string name="label_text_push_notification">Push Notfication</string>
+    <string name="label_text_sound">Sound</string>
+    <string name="label_text_change_password">Change Password</string>
+    <string name="label_text_logout">Logout </string>
+
+    <!--database-->
+
+    <string name="label_radio_person">Person</string>
+    <string name="label_radio_company">Company</string>
+    <string name="label_text_name">Name</string>
+    <string name="label_text_company">Company</string>
+    <string name="label_text_search_instruction">Please search in above Search box</string>
+    <string name="label_text_no_database">No database</string>
+    <string name="label_hint_search">Search</string>
+
+    <!--database details-->
+
+    <string name="label_text_details">Details:</string>
+    <string name="label_text_name_user">Name:</string>
+    <string name="label_text_companyname_user">Company:</string>
+    <string name="label_text_designation">Designation:</string>
+    <string name="label_text_contact">Contact:</string>
+    <string name="label_text_email_id">Email Id:</string>
+    <string name="label_text_add">Add</string>
+    <string name="label_text_edit">Edit</string>
+    <string name="label_text_delete">Delete</string>
+    <string name="title_activity_add_delete_entry">AddDeleteEntryActivity</string>
+    <string name="title_news_detail">News Details</string>
+    <string name="title_add_news">Add News</string>
+    <string name="title_job_detail">Job Details</string>
+    <string name="title_add_job">Add Job</string>
+    <string name="title_change_password">Change password</string>
+    <string name="title_add_member">Add Person</string>
+    <string name="title_person_details">Person Details</string>
+    <string name="title_edit_person_details">Edit Details</string>
+    <string name="label_share">Share</string>
+
+
+    <!--add details-->
+
+    <string name="label_text_add_instructions">Please enter the details below and "Save"</string>
+    <string name="label_button_add_entry">Save</string>
+
+    <string name="hint_text_name">Name</string>
+    <string name="hint_text_designation">Designation</string>
+    <string name="hint_text_company">Company</string>
+    <string name="hint_text_contact">Contact</string>
+    <string name="hint_text_emailid">Email Id</string>
+
+    <string name="error_empty_name">Please Eneter</string>
+
+    <string name="error_name_empty">Please enter full name</string>
+    <string name="error_company_empty">Please enter Company Name</string>
+    <string name="error_user_designation_empty">Please enter Designation Name</string>
+    <string name="error_contact_empty">Please enter password</string>
+    <string name="error_emailId_empty">Please enter official email id</string>
+
+    <!--profile activity-->
+    <string name="label_button_save_profile">Save Changes</string>
+
+    <string name="alert_message_upload_image">Are you sure you want to upload image?. </string>
+
+    <!--change password activity-->
+    <string name="hint_old_password">Old password</string>
+    <string name="hint_new_password">New password</string>
+    <string name="label_button_change">Change</string>
+
+    <string name="error_empty_old_password">Please enter old password</string>
+    <string name="error_empty_new_password">Please enter new password</string>
+    <string name="error_change_password">Change password error</string>
+    <string name="nwk_response_change_apssword">Change password response</string>
+    <string name="nwk_old_password_incorrect">Old Password is incorrect</string>
+    <string name="msg_password_changed">Password changed successfully</string>
+
+
+    <!--News Activity-->
+    <string name="msg_news_error">Error in news</string>
+    <string name="label_button_add">Add</string>
+
+    <string name="hint_title">Title</string>
+    <string name="hint_description">Description</string>
+    <string name="label_save">Save</string>
+    <string name="label_text_no_news">No News Found</string>
+
+
+    <!--Add News Activity-->
+    <string name="empty_news_title">please enter title</string>
+    <string name="empty_news_description">Please enter description</string>
+    <string name="ntwk_response_add_news">Response add news</string>
+    <string name="add_news_error">Error in adding news</string>
+
+    <!--GET Jobs Activity-->
+    <string name="fetch_jobs_error">Error in Fetching Jobs</string>
+    <string name="nwk_response_get_ujobs">Get Jobs response</string>
+    <string name="label_text_no_jobs">No Jobs Found</string>
+
+    <!--EDIT USERS Activity-->
+    <string name="empty_user_name">Please enter  name</string>
+    <string name="empty_company_name">Please enter  Compnay name</string>
+    <string name="empty_designation">Please enter  Designametion </string>
+
+    <string name="label_delete_user">Are you sure you want to delete this entry?.  </string>
+    <string name="alert_delete_user">Delete Contact</string>
+
+
+    <string name="labelChoosePhoto">Choose Photo</string>
+    <string name="labelTakePic">Take Photo</string>
+    <string name="labelOr">or</string>
+
+
+    <!--Add Job Activity-->
+    <string name="ntwk_response_add_job">Response add job</string>
+
+    <!--Database Fragment-->
+    <string name="error_get_persons">Error get persons</string>
+    <string name="error_get_company">Error get company</string>
+    <string name="no_persons_found">No Persons found</string>
+    <string name="no_company_found">No Company found</string>
+
+    <!--Company_Members-->
+    <string name="no_employees_found">No Employees found</string>
+
+    <!--User Profile-->
+    <string name="message_profile_updated">Profile updated successfully</string>
+    <string name="message_image_updated">Image updated successfully</string>
+    <string name="alert_updating_profile">Error occurred in updating profile</string>
+
+    <string name="alert_title_oops">oops</string>
+
+
+    <!--AD_ENTRY_ACTIVITY-->
+    <string name="message_pesron_submitted_for_review_activity">Request submitted for approval</string>
+    <string name="message_person_deletion">Person Successfully Submitted for deletion.</string>
+    <string name="message_person_editing">Request submitted for approval</string>
+
+
+    <!--CONTACT_US_FRAGMENT-->
+
+    <string name="emptyMessage">Please enter message</string>
+    <string name="message_admin_contacting">Your message successfully send.</string>
+
+    <!--Forgot-Password-->
+    <string name="emailNotExist">Email id not exist</string>
+    <string name="recoveryEmailSended">Email has been sended to your registered email id</string>
+</resources>

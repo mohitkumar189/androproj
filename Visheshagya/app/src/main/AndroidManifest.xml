@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.visheshagya.visheshagya">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="VISHESHAGYA"
+        android:supportsRtl="true"
+        android:theme="@style/NoActionBarTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <!-- Splash Activity -->
+        <activity
+            android:name=".activities.SplashActivity"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Home activity -->
+        <activity
+            android:name=".activities.HomeActivity"
+            android:label="" />
+
+        <!-- Consult imediately Activity -->
+        <activity android:name=".activities.ConsultImmActivity" />
+
+        <!-- Experts list Activity -->
+        <activity android:name=".activities.ExpertsListWithCategory" />
+
+        <!-- Expert detail Activity -->
+        <activity android:name=".activities.ExpertDetailsActivity" />
+
+        <!-- Book appointment Activity -->
+        <activity
+            android:name=".activities.BookAppointmentActivity"
+            android:windowSoftInputMode="stateHidden" />
+
+        <!-- Booking confirmation Activity -->
+        <activity
+            android:name=".activities.BookingConfirmationActivity"
+            android:noHistory="true" />
+
+        <!-- Web View Activity -->
+        <activity
+            android:name=".webViews.WebViewActivity"
+            android:noHistory="true" />
+
+        <!-- Payu Payment Activity -->
+        <activity
+            android:name=".paymentGateways.PayuPaymentGateway"
+            android:noHistory="true" />
+
+        <!-- Payu Payment Activity -->
+        <activity
+            android:name=".paymentGateways.InstantPayuPayment"
+            android:noHistory="true" />
+
+        <!-- Login signup activity -->
+        <activity
+            android:name=".activities.LoginSignupActivity"
+            android:noHistory="true" />
+
+        <!-- User profile Activity -->
+        <activity
+            android:name=".activities.UserProfileActivity"
+            android:windowSoftInputMode="stateHidden" />
+
+        <!-- Appointment Details -->
+        <activity android:name=".activities.AppointmentDetailsActivity" />
+
+        <!-- Elocker Activity -->
+        <activity android:name=".activities.ELockersActivity" />
+
+        <!-- Facebook Activity -->
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name=".activities.DocumentsListActivity">
+        </activity>
+    </application>
+
+</manifest>

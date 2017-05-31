@@ -1,0 +1,104 @@
+<resources>
+
+    <string name="user_name">username</string>
+    <string name="user_email">email</string>
+    <string name="user_mobile">monile</string>
+    <string name="user_password">password</string>
+    <string name="sign_in_text">Already member? Sign in</string>
+    <string name="sign_up_btn">Sign Up</string>
+    <string name="sign_in_btn">Sign in</string>
+    <string name="reset_password_btn">Reset Password</string>
+    <string name="accept_terms_text">I Agree with</string>
+    <string name="accept_terms_text_check">terms and conditions</string>
+    <string name="sign_up_text">No account yet? Create one</string>
+    <string name="forgot_password_text">FORGOT PASSWORD</string>
+
+    <!--sign_up-->
+    <string name="hint_editText_full_name">Full name</string>
+    <string name="hint_editText_Official_mail_id">Official email id</string>
+    <string name="hint_editText_password">Password</string>
+    <string name="hint_editText_company_name">Company name</string>
+    <string name="hint_editText_brand_name">Brand name</string>
+    <string name="hint_editText_designation_name">Designation name</string>
+    <string name="hint_editText_linkedin_profile_link">Linkedin profile link</string>
+    <string name="hint_editText_mobile_number">Mobile</string>
+    <string name="hint_status_message">Status Message</string>
+
+    <string name="label_button_signup">Sign up</string>
+    <string name="label_button_update">Update</string>
+
+    <string name="error_fullname_empty">Please enter full name</string>
+    <string name="error_official_emailid_empty">Please enter official email id</string>
+    <string name="error_password_empty">Please enter password</string>
+    <string name="error_designation_empty">Please enter designation</string>
+    <string name="error_mobile_no_empty">Please enter 10 digits mobile number</string>
+    <string name="error_industry_type_empty">Please select industry type</string>
+    <string name="error_Zone_empty">Please select zone</string>
+    <string name="error_status_message">Please enter status message</string>
+
+    <string name="nwk_error_sign_up">Sign up error</string>
+    <string name="nwk_error_sign_in">Sign in error</string>
+    <string name="nwk_error_forgot_password">Forgot Password error</string>
+    <string name="error_add_job">Internal server error in adding Job Please try again</string>
+
+
+    <string name="nwk_response_sign_up">Sign up response</string>
+    <string name="nwk_response_sign_in">Sign in response</string>
+    <string name="nwk_response_forgot_password">Forgot Password response</string>
+
+    <string name="nwk_response_categories">Categories response</string>
+    <string name="nwk_error_categories">Fetching Categories error</string>
+
+    <string name="nwk_response_get_news">Get news response</string>
+    <string name="nwk_response_add_person">Add person response</string>
+
+    <string name="nwk_error_add_person">Error occured during adding person</string>
+
+    <string name="nwk_error_delete_person">Error occured during deleting person</string>
+
+    <string name="nwk_response_delete_person">Delete person response</string>
+
+    <string name="nwk_response_edit_person">Edit person response</string>
+    <string name="nwk_response_is_user_verified">Team is in process of verifying your details, chat feature will be active soon.</string>
+
+
+    <string name="nwk_error_edit_person">Error occured during edit person</string>
+
+    <string name="nwk_response_contact_us">Contact us response</string>
+    <string name="nwk_error_contact_us">Error occured during contacting</string>
+
+
+    <!--app_resources-->
+    <string name="app_name">Visheshagya Expert</string>
+    <string name="pdialog_message_loading">Loading please wait..</string>
+    <string name="alert_message_no_network">Network not available please try again </string>
+    <string name="alert_ok_button_text_no_network">ok</string>
+    <string name="alert_cancel_button_text_no_network">cancel</string>
+
+
+    <!--validator-->
+    <string name="error_phone_no_invalid">Please provide 10 digit mobile number</string>
+    <string name="error_additional_zero">Please provide number without zero</string>
+
+    <string name="error_invalid_email_id">Please provide valid email id</string>
+    <string name="error_empty_email_id">Please provide  email id</string>
+
+    <string name="label_ok_button">ok</string>
+    <string name="label_cancel_button">cancel</string>
+
+    <!--sign_in-->
+    <string name="hint_editText_user_name">Email</string>
+    <string name="hint_editText_login_password">Password</string>
+
+
+    <string name="label_button_signin">Log in</string>
+    <string name="label_forgot_password">Forgot password?</string>
+
+    <string name="error_empty_username">Please enter username</string>
+    <string name="error_empty_password">Please enter password</string>
+
+
+    <!--forgot_password-->
+    <string name="hint_edittext_recovery_email">Email</string>
+    <string name="label_button_reset_password">Reset Password</string>
+</resources>

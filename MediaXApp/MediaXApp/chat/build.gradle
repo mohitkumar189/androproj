@@ -1,0 +1,44 @@
+apply plugin: 'com.android.library'
+
+repositories {
+    maven { url 'http://maven.stickerpipe.com/artifactory/stickerfactory' }
+}
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile files('libs/quickblox-android-sdk-chat-2.5.jar')
+    compile files('libs/quickblox-android-sdk-core-2.5.jar')
+    compile 'com.android.support:recyclerview-v7:23.0.+'
+    compile 'com.google.android.gms:play-services-gcm:7.5.0'
+    compile('vc908.stickers:stickerfactory:0.10.13@aar') {
+        transitive = true;
+    }
+    
+    compile files('libs/quickblox-android-sdk-messages-2.5.2.jar')
+    compile files('libs/quickblox-android-sdk-content-2.5.2.jar')
+
+    compile 'com.squareup.picasso:picasso:2.4.0'
+    compile 'com.squareup.okhttp:okhttp:2.4.0'
+    compile 'com.squareup.okhttp:okhttp-urlconnection:2.2.0'
+}
